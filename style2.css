@@ -2,6 +2,59 @@ body
 {
 	background: #42455a;
 }
+.container
+{
+	background: #42455a;
+}
+.menu ul
+{
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li
+{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1 !important;
+	cursor: pointer;
+}
+.menu a
+{
+	color: #999;
+	text-decoration: none;
+}
+.menu a:hover
+{
+	color: #F98714 !important;
+}
+.logo img
+{
+	width: 60px;
+	margin-top: -16px;
+	margin-right: 30px;
+}
+.active
+{
+	color: #F98714 !important;
+}
+.signup-btn
+{
+	top: 40px;
+	right: 80px;
+	position: absolute;
+	text-decoration: none;
+	color: #b2b1b1;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#D72A1D,#F98714);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+.signup-btn span
+{
+	display: block;
+	padding: 8px 22px;
+}
 /*-----Price Plans-----*/
 #price
 {
